@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
     background-color: burlywood; 
 }
 
@@ -10,6 +12,8 @@ header{
     width: 100%;
     height: 100px;
     background-color: #FFF;
+    
+    float: left
 }
 header img{
     width: 80px;
@@ -25,3 +29,28 @@ header img{
     margin: 0 auto;
 }
 
+/**NAV / MENU*/
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:  #ffa31a;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    padding: 16px;
+    color: #FFF;
+}
+nav li a:hover{
+    background-color: #ffcc80;
+    color: #000;
+}
