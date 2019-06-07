@@ -1,1 +1,27 @@
 /***/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood; 
+}
+
+/**HEADER**/
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #FFF;
+}
+header img{
+    width: 80px;
+    height: 80px;;
+    margin-left: 15px;
+    
+}
+
+/**CONFIGURAÇÃO CONTAINER**/
+.Container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
