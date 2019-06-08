@@ -1,5 +1,6 @@
 /**
 * @author: Rodrigo Andrade
+* Data: 08/06/2019
 * Descrição: Reponsável pela estilização da home.
 *
 */
@@ -51,6 +52,7 @@ article .Call_one .Text-Block{
     margin-top: 5%;
 }
 article .Call_one .Text-Block h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 39px;
     text-align: center;
 }
@@ -58,4 +60,71 @@ article .Call_one .Text-Block p{
     font-size: 18px;
     text-align: center;
     padding: 20px;
+}
+article .Call_one .Text-Block .descricao{
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+}
+
+/**SEGUNDA IMAGEM**/
+article .Call_one2{
+    width: 100%;
+    height: 500px;
+}
+article .Call_one2 .IMAGEM2{
+    width: 484px;
+    height: 434px;
+    background: #FFF;
+    margin: 10px;
+    float: right;
+}
+
+article .Call_one2 .logoCenter{
+    width: 124px;
+    height: 128px;
+    float: left;   
+    margin-top: 15%;
+    margin-bottom:15%;
+    margin-left: 5%;
+}
+
+article .Call_one2 .Text-Block2{
+    width: 476px;
+    height: 390px;
+    float: left;
+    margin-top: 5%;
+}
+article .Call_one2 .Text-Block2 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 39px;
+    text-align: center;
+}
+article .Call_one2 .Text-Block2 p{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+article .Call_one2 .Text-Block2 .descricao2{
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+}
+
+/**CARDÁPIO**/
+.Cardapio{
+    width: 100%;
+    height: auto;
+    float: left;
+    background:  #1A2200;
+}
+.Cardapio span{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    align-content: center;
+}
+.Cardapio span img{
+    width: 100%;
+    height: auto;
 }

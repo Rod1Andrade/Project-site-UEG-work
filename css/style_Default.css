@@ -72,6 +72,7 @@ footer{
     height: 100px;
     background: #212121;
     float: left;
+    margin-top: 100px; 
 }
 
 footer p{
