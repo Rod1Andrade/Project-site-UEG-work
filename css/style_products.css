@@ -57,7 +57,8 @@
 
 .footer-produto .botao-comprar:hover{
    cursor: pointer; 
-   background-color: cadetblue;
+   background-color: #ffcc80;
+   color: #000;
 }
 
 /**DIV DA BEER*/
