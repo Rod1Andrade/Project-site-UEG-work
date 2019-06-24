@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTf-8">
         <link rel="stylesheet" href="../css/style_Default.css">
+        <link rel="stylesheet" href="../css/style_contato.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <title>Craft-Beer-Contato</title>
+        <script src="../js/script.js"></script>
     </head>
 
     <body>
@@ -23,9 +25,21 @@
     </nav><!--FIM DO NAV-->
         <div class="Container">
             <section>
-                <div class="Cabecalho-Info">
-                    <h1>Cabeçalho do produto.</h1>
+                <div class="Cabecalho-Contato">
+                    <h1>CraftBeer sempre em contato:</h1>
                 </div><!--FIM CABECALHO-INFO-->
+                <div class="place-form">
+                    <div class="block-form">
+                        <form action="#" method="POST" name="formContato">
+                            <input type="text" placeholder="Digite seu nome ..." name="nome" class="form-fields">
+                            <input type="email" placeholder="Digite seu E-mail ..." name="email" class="form-fields">
+                            <input type="text" placeholder="Assunto" name="assunto" class="form-fields">
+
+                            <textarea class="area" placeholder="Mensagem..." name="message"></textarea>
+                            <button class="button" name="enviar" onclick="return validForm()">Enviar</button>
+                        </form>
+                    </div><!--Fim block form-->
+                </div><!--Fim lugar do formulário-->
             </section><!--FIM DO SECTION-->
             <article>
                 
