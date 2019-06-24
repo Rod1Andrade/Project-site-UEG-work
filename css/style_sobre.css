@@ -9,21 +9,22 @@
     width: 450px;
     height: 332px;
     float: left;
-    margin-top:25px;
+    margin-top:0;
 }
 .title-place{
-    width: 200px;
+    width: 150px;
     height: auto;
-    margin-left: 10px;
+    margin-left: 0px;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .descri-place{
     width: 700px;
     height: auto;
     margin-left: 10px;
-    float: left;
+    float: right;
     text-align: justify;
+    margin-top: 45px;
 }
 .footer-sobre{
     width: 100%;
